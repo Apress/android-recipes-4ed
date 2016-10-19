@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Define Custom Attributes for our tab colors -->
+    <declare-styleable name="SlidingTabLayout">
+        <attr name="android:textColorPrimary" />
+        <attr name="textColorTabDefault" format="color"/>
+        <attr name="textColorTabSelected" format="color"/>
+    </declare-styleable>
+</resources>

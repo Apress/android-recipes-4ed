@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Provide decor theme colors -->
+        <item name="colorPrimary">@color/primaryGreen</item>
+        <item name="colorPrimaryDark">@color/darkGreen</item>
+        <item name="colorAccent">@color/accentGreen</item>
+
+        <!-- Remove the action bar shadow -->
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!-- Color attributes for our tabs -->
+        <item name="textColorTabDefault">@color/tabTextDefault</item>
+        <item name="textColorTabSelected">@color/tabTextSelected</item>
+    </style>
+
+</resources>
